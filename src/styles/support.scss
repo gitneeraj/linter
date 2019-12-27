@@ -1,0 +1,11 @@
+.content-box {
+    .btn-primary {
+        background-color: #CA2027;
+        border-color: #CA2027;
+
+        &:hover, &:active, &:focus {
+            background-color: lighten( #CA2027, 5% ) !important;
+            border-color: #CA2027 !important;
+        }
+    }
+}

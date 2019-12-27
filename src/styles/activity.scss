@@ -1,0 +1,161 @@
+.header-text {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.header-div {
+  border-radius: 1px;
+  box-shadow: 0 2px 11px 0 rgba(215, 215, 215, 0.5);
+  border: solid 1px rgba(46, 91, 255, 0.08);
+  background-color: #ffffff;
+  padding: 20px 40px 20px 40px;
+  margin-top: 0px !important;
+}
+
+.item-div {
+  border-radius: 1px;
+  box-shadow: 0 2px 11px 0 rgba(215, 215, 215, 0.5);
+  border: solid 1px rgba(46, 91, 255, 0.08);
+  background-color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  margin: 20px;
+}
+
+.item-div{
+  .card {
+    border: none !important;
+  }
+
+  .card-header {
+    background-color: transparent !important;
+    border-bottom: none !important;
+    padding: 8px 0px 5px 8px !important;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .card-body {
+    padding-top: 3px !important;
+  }
+}
+
+.item-child-div {
+  margin: 0px 12px 0px 12px;  
+}
+
+.item-child-div-0 {
+  background-color: #d7efd6;
+  padding: 10px 0px 10px 0px !important;    
+  
+}
+.item-child-div-1 {
+  background-color: #e9ecef;
+  padding: 10px 0px 10px 0px !important;  
+}
+.item-child-site {
+  font-size: 16px;
+  color: #414141;
+}
+
+.item-child-site-name {
+  font-weight: 600;
+}
+
+.item-child-btn-div {
+  text-align: center;
+}
+
+.arrow {
+  margin-left: -20px;
+  margin-bottom: 3px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.arrow-down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow-right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  float: right; 
+  background-repeat: no-repeat;
+  
+    &.credit-insurance-solicitations-icon {
+        background-image: url('../img/dashboard/credit-&-insurance-solicitations.svg');
+        background-position: center top;
+    }
+    &.data-brokers-icon {
+        background-image: url('../img/dashboard/data-brokers.svg');
+    }
+    &.junk-mailers-icon {
+        background-image: url('../img/dashboard/junk-mailers.svg');
+    }
+    &.telemarketing-icon {
+        background-image: url('../img/dashboard/telemarketing.svg');
+    }
+    &.people-search-sites-icon {
+        background-image: url('../img/dashboard/people-search-sites.svg');
+    }
+}
+
+#activity-modal
+{
+  .modal-header{
+    border-bottom:0px!important;
+  }
+
+  .modal-footer{
+    border-top:0px!important;
+  }
+
+  .close {
+    font-size:30px;
+  }
+
+  .modal-header-text {
+    font-size:40px;
+    text-align: center;
+    color: #DD4343;
+    font-weight: bold;
+    margin:-40px;
+  }
+  
+  .modal-header-div {
+    margin: 30px 20px; 
+    padding-right: 5px; 
+  }
+  
+  .modal-threats-header {
+    font-size: 20px;
+    color: #55aead;
+  }
+  
+  .modal-uses-div{
+    border: 1px solid #cdc7c7;
+    padding:50px;
+    text-align: center;
+    margin:30px 50px 30px 50px !important;
+    font-size: 18px;
+    font-weight:bold;
+    color: #DD4343;
+  }
+  
+  .modal-uses-text{
+    font-weight:300;
+    font-size: 90px;
+    color: #55aead;
+  }  
+}
+
+

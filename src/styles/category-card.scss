@@ -1,0 +1,95 @@
+.category-cards {
+    display: grid;
+    grid-gap: 40px;
+
+    .item {
+        background: #FFFFFF;
+        border: 1px solid rgba(46,91,255,0.08);
+        border-radius: 1px;
+        box-shadow: 0 2px 11px 0 rgba(215,215,215,0.50);
+
+        .card-title {
+            font-size: 16px;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: space-between;
+
+            i {
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                margin-left: 10px;
+                background-repeat: no-repeat;
+                background-position: right top;
+
+                &.credit-insurance-solicitations-icon {
+                    background-image: url('../img/dashboard/credit-&-insurance-solicitations.svg');
+                    background-position: center top;
+                }
+                &.data-brokers-icon {
+                    background-image: url('../img/dashboard/data-brokers.svg');
+                }
+                &.junk-mailers-icon {
+                    background-image: url('../img/dashboard/junk-mailers.svg');
+                }
+                &.telemarketing-icon {
+                    background-image: url('../img/dashboard/telemarketing.svg');
+                }
+                &.people-search-sites-icon {
+                    background-image: url('../img/dashboard/people-search-sites.svg');
+                }
+            }
+        }
+
+        .scan-results {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 15px;
+
+            &-col {
+                border-right: 1px solid #E6E6E6;
+                &:last-child {
+                    border-right: none;
+                }
+                .count {
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #4D4D4D;
+                    line-height: 1;
+                }
+                small {
+                    display: block;
+                    line-height: 1;
+                }
+                &.targets {
+                    small {
+                        color: #CA2027;
+                    }
+                }
+                &.harvested {
+                    small {
+                        color: #37AD32;
+                    }
+                }
+                &.pending {
+                    small {
+                        color: #989898;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .category-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .category-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
